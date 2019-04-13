@@ -24,4 +24,4 @@ File.virtual('url').get(function() {
     return `${url}/files/${encodeURIComponent(this.path)}`;
 });
 
-module.exports = mongoose.model("file", File);
+module.exports = mongoose.model("File", File);
